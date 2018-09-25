@@ -1,10 +1,12 @@
 # xuyimiao
 #### an excited android lib helping add text animation effect on any view
 
+![预览图](./preview/demo.gif)
 
 ## How to use
 1. import lib
 2. attach to activity when onCreate
+
 ```
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,6 +15,7 @@
         DynamicView dy = DynamicView.attach2Window(this);
     }
 ```
+
 3. invoke when click any view:
 ```
     public  void onClick(View v) {

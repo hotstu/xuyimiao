@@ -11,7 +11,6 @@ import github.hotstu.xuyimiao.DynamicView;
  */
 public class DynamicViewModel{
 
-
     private DynamicView dy;
 
     public DynamicViewModel(DynamicView dy) {
